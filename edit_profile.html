@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Edit Profile</title>
+
+<style>
+body {
+    font-family: Poppins;
+    background: linear-gradient(135deg, #6a9dfc, #c86dd7);
+}
+
+.card {
+    width: 800px;
+    margin: 60px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<h2 style="text-align:center;">Edit Profile</h2>
+
+<form method="POST">
+
+<div class="grid">
+
+<input name="name" value="{{ user_info.name }}">
+<input name="vehicle_id" value="{{ user_info.vehicle_id }}">
+
+<input name="phone" value="{{ user_info.contact_number }}">
+<input name="car_brand" value="{{ user_info.car_brand }}">
+
+<input name="model" value="{{ user_info.model }}">
+<input name="address" value="{{ user_info.address }}">
+
+</div>
+
+<button>Update Profile</button>
+
+</form>
+
+</div>
+
+</body>
+</html>

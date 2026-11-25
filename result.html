@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Results</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<style>
+.minor {color:green;}
+.major {color:red;}
+.summary {background:#eef2f5;padding:15px;border-radius:10px;}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+<div class="card">
+
+<h2>Damage Summary</h2>
+
+<div class="summary">
+<p><b>Total Damage Count:</b> {{ total_count }}</p>
+<p><b>Total Estimated Cost:</b> ₹{{ total_cost }}</p>
+<p><b>Severity:</b>
+<span class="{{ severity_class }}">{{ severity_text }}</span>
+</p>
+</div>
+
+<hr>
+
+{% for view, data in results.items() %}
+<h1 class="report-title">Inspection Report</h1>
+<div class="card">
+<h3>{{ view }}</h3>
+<p>Detected: {{ data.count }}</p>
+<p>Types: {{ data.labels }}</p>
+<p>Cost: ₹{{ data.cost }}</p>
+
+<img src="/static/results/{{ data.image }}" width="350" alt="Result image for {{ view }}">
+</div>
+{% endfor %}
+
+<center>
+<a href="/download-report"><button>Download PDF Report</button></a>
+</center>
+
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+{
+    "code1@gmail.com": {
+        "name": "code",
+        "email": "code1@gmail.com",
+        "password": "scrypt:32768:8:1$BHLheyybx5bsxsVr$1122c2b4fdfbcc7566ba4d0cdc6d471d560035e6defca286bf87ce440cefa4c28ff7002046821c3ee91b8c8340cf8856e50a634c399fa2a39ca702eae5d66f90",
+        "contact_number": "55555",
+        "vehicle_id": "4546",
+        "car_brand": "asdas",
+        "model": "ascsac",
+        "address": "sasacascsa"
+    },
+    "rutusurvase26@gmail.com": {
+        "name": "rutuja",
+        "email": "rutusurvase26@gmail.com",
+        "password": "scrypt:32768:8:1$Pd7RaKfu5hNjmQOT$81d8b9c9eab92d294d5b2e9f23cc01960d9e0e5db2970af32ca97675c8abd02cbda3506a225077b8abbe63a6a0a417c5478484194e90fb670baf98ef58eca6b0",
+        "contact_number": "7385784017",
+        "vehicle_id": "12",
+        "car_brand": "bullet",
+        "model": "pulser",
+        "address": "pune"
+    },
+    "H": {
+        "name": "Prathmesh Surve",
+        "email": "H",
+        "password": "scrypt:32768:8:1$WnU8j9HdL11osqgQ$d060c7b78fc08071a0a72569178f0051704d3f4c810b7e63f9150e58d3606266de6997349c31b8cf11dc8e3e7ae31ea23329f58674b9eb744484533e32764ec9",
+        "contact_number": "07709333179",
+        "vehicle_id": "H",
+        "car_brand": "H",
+        "model": "H",
+        "address": "Virwade"
+    },
+    "vaidehimahamuni@gmail.com": {
+        "name": "Vaidehi  Mahamuni",
+        "email": "vaidehimahamuni@gmail.com",
+        "password": "scrypt:32768:8:1$bn9puS9M5tDuuZYC$69d6248ce63171d546584d78a69354223fb1173d111ef26f3200e89968d9beeee1a417548c8487623c83828745f6a4c266d4b95d9881a4a7d2c97f775fcd0fb3",
+        "contact_number": "7498650330",
+        "vehicle_id": "mh121195",
+        "car_brand": "pulser125",
+        "model": "sports bike",
+        "address": "AT.Azadpur tal.koregoan  dist. satara"
+    },
+    "pritimore70260@gmail.com": {
+        "name": "Priti More",
+        "email": "pritimore70260@gmail.com",
+        "password": "scrypt:32768:8:1$d1a9XaTsC7wfgNmh$3608d5ea66cee8c0993a3e8824a5f1b094067c999e5cf480799f8db19bbdcbca2877b740c606c4a25b517273b5dfbdff6b79ebbe77d1f58bb1ae1a3d67d9e087",
+        "contact_number": "09322772601",
+        "vehicle_id": "1195",
+        "car_brand": "pulser125",
+        "model": "sports bike",
+        "address": "satara"
+    },
+    "rutujasurvase26@gmail.com": {
+        "name": "rutuja arun survase",
+        "email": "rutujasurvase26@gmail.com",
+        "password": "scrypt:32768:8:1$ncIsPgZ3vM6YeXUk$334146ce9f9aa78496c2d16c6beb86bad579dd127431db60e7e0f8c09e1598412d406eee057d8c4333e01a58905fcc28f9a788fedd4713f69a4b191b9ebb4223",
+        "contact_number": "7385784017",
+        "vehicle_id": "1195",
+        "car_brand": "pulser125",
+        "model": "sports bike",
+        "address": "pune"
+    },
+    "code@gmail.com": {
+        "name": "code",
+        "email": "code@gmail.com",
+        "password": "scrypt:32768:8:1$ELYM5TDvIDqGfcd5$fa21dcdd781ab4551f90419604463e5811d10b4805d79b62f9765ff51918413d7e7fbc8263f73ffd1c7009559b51899ad0cc9edd822db8124bbb63b3564cea04",
+        "contact_number": "454564545",
+        "vehicle_id": "asd",
+        "car_brand": "asdas",
+        "model": "ascsac",
+        "address": "asdasd"
+    },
+    "vaidehimahamuni29@gmail.com": {
+        "name": "vaidehi milind mahamuni",
+        "email": "vaidehimahamuni29@gmail.com",
+        "password": "scrypt:32768:8:1$OoDpNUin9qKL6EYx$57ce1fb6d1f8f7944071f0894764250061194c67e5da474a77deebf22a898fd1ed90649b45a9adb663330bf5c3bb61b3cd7b72516cddca6a0b4838b473a783b0",
+        "contact_number": "7498650330",
+        "vehicle_id": "1195",
+        "car_brand": "pulser125",
+        "model": "sports bike",
+        "address": "vaidehimahamuni29@gmail.com"
+    },
+    "surve@gmail.com": {
+        "name": "prathmesh surve",
+        "email": "surve@gmail.com",
+        "password": "scrypt:32768:8:1$UZay0A9x7OgaXF2h$6453fdcfc1ac625273c2644cc1b158ca03b92ca5c805922e458b5d997de9c3de38201534640708318ef62583d2f6da89b16162f24d75ae3f19e180f75c702618",
+        "contact_number": "7712345612",
+        "vehicle_id": "78",
+        "car_brand": "pulser",
+        "model": "tata",
+        "address": "karad"
+    }
+}
